@@ -13,7 +13,7 @@ function NavBar() {
   ];
 
   return (
-    <nav className="navbar navbar-expand-lg  navbar-dark menu">
+    <nav className="navbar navbar-expand-lg  navbar-dark menu  shadow fixed-top">
       <div className="container brand-logo">
         <FaLaptopCode />
         <a className="navbar-brand" href="#">
