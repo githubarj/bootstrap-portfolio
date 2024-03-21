@@ -1,11 +1,9 @@
 @use "../custom" as *;
+@use "../components/mixins" as *;
+@use "../components/buttons" as *;
 
 .menu {
-  background: linear-gradient(
-    to right,
-    rgba($primary, 0.95),
-    rgba($secondary, 0.95)
-  );
+  @include gradient;
   .brand-logo {
     color: $white;
     display: flex;

@@ -1,4 +1,5 @@
 import { FaLaptopCode } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 function NavBar() {
   const navlinks = [
     "Home",
@@ -10,7 +11,7 @@ function NavBar() {
   ];
 
   return (
-    <nav className="navbar navbar-expand-lg menu">
+    <nav className="navbar navbar-expand-lg  navbar-dark menu">
       <div className="container brand-logo">
         <FaLaptopCode />
         <a className="navbar-brand" href="#">
@@ -40,8 +41,11 @@ function NavBar() {
               </li>
             ))}
           </ul>
-          <button type="button" className="rounded-pill">
+          <button type="button" className="rounded-pill btn-rounded ">
             +254 798320724
+            <span>
+              <FaPhoneAlt />
+            </span>
           </button>
         </div>
       </div>
