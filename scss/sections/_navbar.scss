@@ -1,0 +1,32 @@
+@use "../custom" as *;
+
+.menu {
+  background: linear-gradient(
+    to right,
+    rgba($primary, 0.95),
+    rgba($secondary, 0.95)
+  );
+  .brand-logo {
+    color: $white;
+    display: flex;
+    gap: 10px;
+
+    a {
+      color: $white;
+    }
+    svg {
+      width: 30px;
+      height: auto;
+    }
+  }
+
+  li {
+    padding: 0 0.7rem;
+
+    a {
+      font-weight: 600;
+      text-transform: capitalize;
+      color: $white !important;
+    }
+  }
+}
