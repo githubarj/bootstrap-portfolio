@@ -10,8 +10,8 @@ function Companies() {
       <div className="container">
         <div className="row">
           {Array.from({ length: 6 }).map((_, index) => (
-            <div className="col-md-4" key={index}>
-              <div className="companies__logo-box">
+            <div className="col-md-4 col-lg-2" key={index}>
+              <div className="companies__logo-box shadow-sm">
                 <img
                   src={`/public/Images/companies/campany-${index + 1}.png`}
                   alt="company1 logo"
