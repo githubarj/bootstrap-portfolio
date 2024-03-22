@@ -21,7 +21,7 @@ function IntroSection() {
               <img
                 src="/Images/Illustrations/intro-section-illustration.png"
                 alt="video illustration"
-                className="image-fluid"
+                className="img-fluid"
               />
             </div>
           </div>
