@@ -1,7 +1,10 @@
+import IntroSection from "../../Components/IntroSection/IntroSection"
 
 function LandingPage() {
   return (
-    <div>LandingPage</div>
+    <div>
+      <IntroSection />
+    </div>
   )
 }
 
