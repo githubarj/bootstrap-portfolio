@@ -1,6 +1,6 @@
 function Companies() {
   return (
-    <section id="companies">
+    <section id="companies" className="companies">
       <div className="container">
         <div className="row text-center ">
           <h4 className="fw-bold lead mb-3 ">Trusted by companies like</h4>
