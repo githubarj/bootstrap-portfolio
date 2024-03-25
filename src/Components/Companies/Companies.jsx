@@ -1,6 +1,6 @@
 function Companies() {
   return (
-    <section id="companies">
+    <section id="companies" className="companies">
       <div className="container">
         <div className="row text-center ">
           <h4 className="fw-bold lead mb-3 ">Trusted by companies like</h4>
@@ -13,7 +13,7 @@ function Companies() {
             <div className="col-md-4 col-lg-2" key={index}>
               <div className="companies__logo-box shadow-sm">
                 <img
-                  src={`/public/Images/companies/campany-${index + 1}.png`}
+                  src={`/Images/companies/campany-${index + 1}.png`}
                   alt="company1 logo"
                   title={`company ${index + 1} logo`}
                   className="img-fluid"
