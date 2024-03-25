@@ -13,7 +13,7 @@ function Companies() {
             <div className="col-md-4 col-lg-2" key={index}>
               <div className="companies__logo-box shadow-sm">
                 <img
-                  src={`/public/Images/companies/campany-${index + 1}.png`}
+                  src={`/Images/companies/campany-${index + 1}.png`}
                   alt="company1 logo"
                   title={`company ${index + 1} logo`}
                   className="img-fluid"
